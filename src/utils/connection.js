@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const { buses } = require("../../dummyData");
+// const { buses } = require("../../dummyData");
 const connectDataBaseServer = async () => {
   try {
     await mongoose.connect(process.env.DB_HOST);
